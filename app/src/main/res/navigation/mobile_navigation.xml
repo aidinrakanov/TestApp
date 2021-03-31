@@ -26,19 +26,22 @@
         android:name="com.example.testtest.ui.fragments.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
     <fragment
-        android:id="@+id/addFragment"
+        android:id="@+id/navigation_add"
         android:name="com.example.testtest.ui.fragments.add.AddFragment"
         android:label="add_fragment"
         tools:layout="@layout/add_fragment" />
+
     <fragment
-        android:id="@+id/favoritesFragment"
+        android:id="@+id/navigation_favorites"
         android:name="com.example.testtest.ui.fragments.favorites.FavoritesFragment"
         android:label="favorites_fragment"
         tools:layout="@layout/favorites_fragment" />
+
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.example.testtest.ui.DetailsFragment"
+        android:name="com.example.testtest.ui.fragments.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details" />
 </navigation>

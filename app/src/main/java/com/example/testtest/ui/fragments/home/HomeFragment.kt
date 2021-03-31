@@ -43,7 +43,7 @@ class HomeFragment : Fragment() {
             when(position){
                 0->{tab.text ="Агробазар" }
                 1->{tab.text ="Сельхоз\nтехника" }
-                2->{tab.text ="Строительные\nматериалы" }
+                2->{tab.text ="Строй\nматериалы" }
             }
         }.attach()
     }
