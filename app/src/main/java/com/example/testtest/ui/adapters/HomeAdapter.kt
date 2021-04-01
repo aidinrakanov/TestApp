@@ -43,4 +43,5 @@ class HomeAdapter(private val onItemClickListener: OnItemClickListener,
     interface OnItemClickListener{
         fun onClickListener(item:Model)
     }
+
 }
